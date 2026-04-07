@@ -2129,7 +2129,7 @@
           <div
             class="hero-cmd"
             onclick="
-              navigator.clipboard?.writeText('npm install -g mars-notebook')
+              navigator.clipboard?.writeText('npm install -g marsbook')
             "
           >
             <span class="dollar">$</span>
@@ -3537,7 +3537,7 @@
               </li>
               <li>
                 <a
-                  href="https://www.npmjs.com/package/mars-notebook"
+                  href="https://www.npmjs.com/package/marsbook"
                   target="_blank"
                   >npm Package</a
                 >
@@ -3568,7 +3568,7 @@
               >⌥</a
             >
             <a
-              href="https://www.npmjs.com/package/mars-notebook"
+              href="https://www.npmjs.com/package/marsbook"
               class="soc-btn"
               target="_blank"
               title="npm"
@@ -3650,7 +3650,7 @@
       document
         .querySelector(".hero-cmd")
         ?.addEventListener("click", function () {
-          const cmd = "npm install -g mars-notebook";
+          const cmd = "npm install -g marsbook";
           navigator.clipboard?.writeText(cmd).then(() => {
             const hint = this.querySelector(".copy-hint");
             if (hint) {
